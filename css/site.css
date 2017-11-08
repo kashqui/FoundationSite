@@ -1,0 +1,176 @@
+/* common */
+body
+{
+	font-family:"ヒラギノ角ゴ Pro W3",メイリオ,Osaka,Arial,Verdana,"ＭＳ Ｐゴシック",sans-serif;
+    background-color:#fff;
+    font-size:16px;
+    line-height:150%;
+    color:#444;
+}
+/* horizontal lines */
+.gray
+{
+    float: none;
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+}
+.orange
+{
+    border: 3px;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(255,100,0,0), rgba(255,100,0,0.75), rgba(255,100,0,0));
+    background-image:    -moz-linear-gradient(left, rgba(255,100,0,0), rgba(255,100,0,0.75), rgba(255,100,0,0));
+    background-image:     -ms-linear-gradient(left, rgba(255,100,0,0), rgba(255,100,0,0.75), rgba(255,100,0,0));
+    background-image:      -o-linear-gradient(left, rgba(255,100,0,0), rgba(255,100,0,0.75), rgba(255,100,0,0));
+}
+.center
+{
+    text-align: center;
+    display: inline-block;
+}
+
+.p_left
+{
+	text-align: left;
+}
+
+#logo_img
+{
+    float: left;
+    margin :10px 0 0 60px;
+}
+#logo_link
+{
+    float: right;
+    margin: 20px 50px 30px 20px;
+}
+.horizontal_menulist
+{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.float_clear
+{
+    clear: both;
+}
+footer
+{
+    text-align: center;
+}
+footer img
+{
+    margin: 10px;
+}
+h3
+{
+	font-size: 1.3em;
+    margin-left: 5px;
+}
+.space
+{
+	margin-top: 20px;
+}
+#body p
+{
+    margin: 10px;
+    padding: 10px;
+}
+.content
+{
+    text-align: center;
+}
+.footmenu
+{
+    line-height: 40px;
+    margin-right: 10px;
+}
+.title
+{
+    margin-left: 10px;
+    font-size:16px;
+    font-weight: bold;
+    color:#F80;
+}
+.small
+{
+    font-size:0.8em;
+}
+.space10
+{
+    padding: 10px;
+}
+/* interview */
+.interview_link
+{
+    text-align: center;
+    font-size: 0.8em;
+    font-weight: bold;
+    margin: 30px;
+}
+.interview_link a
+{
+    color: #444;
+}
+.interview_link a:visited
+{
+    color: #444;
+}
+/* company */
+#company_table{
+    margin-left: 20px;
+    width:1050px;
+    border-width: 1px;
+    border-color: #fff;
+}
+.company_td_header
+{
+	text-align: left;
+    width:150px;
+    background-color: #F19F17;
+    color: #fff;
+    padding:10px;
+}
+.company_td_content
+{
+	text-align: left;
+    width:400px;
+    background-color: #EEF;
+    color: #000;
+    padding:10px;
+}
+.company_td_enkaku
+{
+	text-align: left;
+    width:420px;
+    background-color: #FEF;
+    color: #000;
+    padding:10px;
+}
+/* top */
+.uketsuke
+{
+    color: deeppink;
+    margin-bottom: 10px;
+}
+/* koji */
+.koji_img
+{
+	margin:10px;
+}
+/* telephone link */
+.alp_telcon {
+	 width: 20px;
+	 padding-bottom: 5px;
+}
+/* Disable telephone link. */
+a[href^="tel:"] {
+	cursor: default;
+}
+/* Set foundation icon size. */
+i {
+	padding-right: 8px;
+}

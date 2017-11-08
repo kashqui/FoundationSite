@@ -1,0 +1,4 @@
+ErrorDocument 401 http://www.dummy_fophaz.co.jp/error.php
+ErrorDocument 403 http://www.dummy_fophaz.co.jp/error.php
+ErrorDocument 404 http://www.dummy_fophaz.co.jp/error.php
+ErrorDocument 500 http://www.dummy_fophaz.co.jp/error.php
