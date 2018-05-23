@@ -2,7 +2,7 @@
 
 ## Description
 
-This is my web site using Foundation CSS frameworks.
+This is my web site using Foundation, CSS frameworks.
 
 ## Usage
 
